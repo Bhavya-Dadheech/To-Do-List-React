@@ -1,70 +1,65 @@
-# Getting Started with Create React App
+# To-Do-List-React
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This comprehensive to-do list application is the result of a hands-on learning journey that combines React for the frontend and Spring Boot (Java) for the backend. Developed with a primary focus on mastering the creation of RESTful APIs in Spring Boot, this project offers a robust platform for managing tasks efficiently.
+The application covers fundamental CRUD (Create, Read, Update, Delete) operations, providing users with a seamless experience to organize and oversee their tasks. Notably, the project delves into the intricacies of user authentication and authorization using JWT tokens. By leveraging local storage on the client side, the application ensures secure access for registered users.
 
-## Available Scripts
+## Installation
 
-In the project directory, you can run:
+### Prerequisites
 
-### `npm start`
+Before you begin, ensure you have the following installed on your machine:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- [Ract.js](https://react.dev/)
+- [Node.js](https://nodejs.org/) - Required for running the Angular frontend.
+- [npm](https://www.npmjs.com/) - Node.js package manager.
+- [Java](https://www.oracle.com/java/technologies/javase-downloads.html) - Required for running the Spring Boot backend.
+- [Spring Boot CLI](https://docs.spring.io/spring-boot/docs/current/reference/html/getting-started-installing-spring-boot.html) - Optional, but recommended.
+ 
+# Frontend (React)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+1. Open a Command Prompt and navigate to the `frontend` directory:
 
-### `npm test`
+    ```bash
+    cd frontend
+    ```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+2. Install dependencies:
 
-### `npm run build`
+    ```bash
+    npm install
+    ```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+3. Run the Angular development server:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+    ```bash
+    npm start
+    ```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+   The application will be accessible at `http://localhost:3001/`.
 
-### `npm run eject`
+### Backend (Spring Boot)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+1. To run backend you can open the project in eclipse IDE.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+2. You have to create a databse in MYSQL. you can set database configuration in application.properties.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+3. Now you can run your java application.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+# Tech Stack Used
 
-## Learn More
+![html](https://github.com/Bhavya-Dadheech/ProductivityPulse/assets/70031238/6721182c-7126-405a-9f85-a5a5eda78554)
+![css](https://github.com/Bhavya-Dadheech/ProductivityPulse/assets/70031238/490412c6-4605-477c-af12-7cbe64ce6c81)
+![bootstrap](https://github.com/Bhavya-Dadheech/To-Do-List-React/assets/70031238/cbb24b1b-c17d-4e07-9e3d-0199cc804d44)
+![javascript (2)](https://github.com/Bhavya-Dadheech/To-Do-List-React/assets/70031238/d1f354c8-779b-48be-829e-5b0fd1d9936b)
+![react](https://github.com/Bhavya-Dadheech/To-Do-List-React/assets/70031238/341545de-4137-41d1-832b-5161b44f4b4c)
+![spring](https://github.com/Bhavya-Dadheech/ProductivityPulse/assets/70031238/64083563-ff94-40a6-9d5d-9f75213f72ba)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+# Preview
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+# Contributions
 
-### Analyzing the Bundle Size
+Contributions to the To-Do-List-React are welcome! If you encounter any bugs or issues or have ideas for improvements, please open an issue on the repository. Pull requests with enhancements are also appreciated.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+(If you liked the project, give it a star 😃).
