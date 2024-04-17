@@ -9,8 +9,7 @@ The application covers fundamental CRUD (Create, Read, Update, Delete) operation
 
 Before you begin, ensure you have the following installed on your machine:
 
-- [Ract.js](https://react.dev/)
-- [Node.js](https://nodejs.org/) - Required for running the Angular frontend.
+- [Node.js](https://nodejs.org/) - Required for running the React frontend.
 - [npm](https://www.npmjs.com/) - Node.js package manager.
 - [Java](https://www.oracle.com/java/technologies/javase-downloads.html) - Required for running the Spring Boot backend.
 - [Spring Boot CLI](https://docs.spring.io/spring-boot/docs/current/reference/html/getting-started-installing-spring-boot.html) - Optional, but recommended.
@@ -29,7 +28,7 @@ Before you begin, ensure you have the following installed on your machine:
     npm install
     ```
 
-3. Run the Angular development server:
+3. Run the React development server:
 
     ```bash
     npm start
